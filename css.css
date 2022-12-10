@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.link {
+    color: orange;
+    text-decoration: none;
+}
+
+.link :hover {
+    color: red;
+    text-decoration: solid;
+}
+
+.display {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+    background-color: lightgray;
+}
